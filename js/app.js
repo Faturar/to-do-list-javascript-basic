@@ -11,10 +11,9 @@ const list = ['reset'];
 const showList = function() {
     listContainer.innerHTML = ``;
     for(let i = 1; i < list.length; i++){
-        listContainer.innerHTML += `<li class="list"><span class="number">${i}. </span><div class="text">${list[i]}</div><button class="edit">Edit</button><button class="remove">Remove</button></li>`
+        listContainer.innerHTML += `<li class="list"><span class="number">${i}. </span><div class="text">${list[i]}</div><button class="edit" onClick="editMethod()">Edit</button><button class="remove">Remove</button></li>`
     }
 }
-
 
 // add 
 add.addEventListener('click',function(){
@@ -23,10 +22,25 @@ add.addEventListener('click',function(){
 });
 
 // edit
-
+function editMethod(i){
+    inputText.innerHTML = list[i];
+};
 
 
 // delete
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 showList();
