@@ -31,6 +31,7 @@ function addTodo(event){
     completedButton.innerHTML = '<img src="img/check2.png" class="button-img">'
     completedButton.classList.add("complete-btn");
     todoDiv.appendChild(completedButton);
+    
     // Check trash button
     const trashButton = document.createElement('button');
     trashButton.innerHTML = '<img src="img/trash.png" class="button-img">'
