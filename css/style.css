@@ -30,6 +30,12 @@ form button{
     cursor: pointer;
     transition: all 0.3s ease;
 }
+
+.todo-button img{
+    min-height: 5px;
+    max-height: 13px;
+}
+
 form button:hover {
     background: #d4fc79;
     color: white;
@@ -67,10 +73,6 @@ form button:hover {
 }
 .complete-btn{
     background-color: #00cc1b;
-}
-
-.p-remove,.p-check{
-    pointer-events: none;
 }
 
 .completed {
@@ -113,4 +115,10 @@ select{
     padding: 1rem;
     pointer-events: none;
     transition: all 0.3s ease;
+}
+
+.button-img{
+    pointer-events: none;
+    width: 20px;
+    height: 20px;
 }
