@@ -28,12 +28,12 @@ function addTodo(event){
     saveLocalTodos(todoInput.value);
     // Check mark button
     const completedButton = document.createElement('button');
-    completedButton.innerHTML = '<img src="img/check.png" class="button-img">'
+    completedButton.innerHTML = '<img src="img/check2.png" class="button-img">'
     completedButton.classList.add("complete-btn");
     todoDiv.appendChild(completedButton);
     // Check trash button
     const trashButton = document.createElement('button');
-    trashButton.innerHTML = '<img src="img/delete.png" class="button-img">'
+    trashButton.innerHTML = '<img src="img/trash.png" class="button-img">'
     trashButton.classList.add("trash-btn");
     todoDiv.appendChild(trashButton);
     // append to list
