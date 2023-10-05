@@ -1,6 +1,5 @@
 # To-Do-List
-Project to do list javascript
+Project to do list javascript basic
 
-see at https://faturrar.github.io/To-Do-List/
 
-ok 
+https://todojavascriptbasicfar.netlify.app/
